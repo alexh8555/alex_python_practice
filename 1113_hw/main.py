@@ -17,7 +17,7 @@ testSize = 0.2
 
 # df = pd.read_excel("Abandonment data test.xlsx")
 df = pd.read_excel("python_1113//Abandonment data.xlsx")
-print(f'df Original, shape is {df.shape}')d
+print(f'df Original, shape is {df.shape}')
 
 # 1. Data Preparation (1.5 Points)
 # Clean the Dataset: Address any errors and inconsistencies in the data.
