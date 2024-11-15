@@ -5,10 +5,11 @@ from sklearn.ensemble import RandomForestRegressor
 from sklearn.preprocessing import StandardScaler, OneHotEncoder
 from sklearn.compose import ColumnTransformer
 from sklearn.pipeline import Pipeline
-from sklearn.metrics import mean_squared_error
+from sklearn import metrics
 
 ##############CONFIG################
 nStd = 2 # timeDiff that are "N * std" away from the mean will be remove
+nEstimators = 100
 randomNum = 42
 testSize = 0.2
 
@@ -81,7 +82,7 @@ preprocessor = ColumnTransformer(
 # Define the model pipeline
 model = Pipeline(steps=[
     ('preprocessor', preprocessor),
-    ('regressor', RandomForestRegressor(n_estimators=100, random_state=randomNum))
+    ('regressor', RandomForestRegressor(n_estimators=nEstimators, random_state=randomNum))
 ])
 
 # Split data into training and testing sets
@@ -94,13 +95,11 @@ model.fit(X_train, y_train)
 y_pred = model.predict(X_test)
 
 # Evaluate the model
-mse = mean_squared_error(y_test, y_pred)
-rmse = np.sqrt(mse)
 
-print("Root Mean Squared Error:", rmse)
-print("Predicted wait times:", y_pred)
-
-
+# print("Predicted wait times for test data:", y_pred)
+print('Mean Absolute Error (MAE): ', metrics.mean_absolute_error(y_test, y_pred))
+print('Mean Squared Error (MSE): ', metrics.mean_squared_error(y_test, y_pred))
+print('Root Mean Squared Error (RMSE): ', np.sqrt(metrics.mean_squared_error(y_test, y_pred)))
 
 # 3. Analysis (4 Points)
 # Relationship Examination: Analyze how the estimated wait times relate to the likelihood of a customer reneging.
