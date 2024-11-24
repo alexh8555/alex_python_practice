@@ -1,0 +1,307 @@
+city1,city2,distance
+Amsterdam,London,222
+London,Frankfurt,397
+London,Amsterdam,222
+Paris,Amsterdam,267
+Frankfurt,Paris,297
+Amsterdam,Frankfurt,226
+Frankfurt,Amsterdam,226
+Paris,London,213
+London,Paris,213
+Amsterdam,Paris,267
+Frankfurt,London,397
+Paris,Frankfurt,297
+Madrid,London,784
+Istanbul,London,1556
+Madrid,Amsterdam,920
+Paris,Madrid,654
+Amsterdam,Madrid,920
+Paris,Istanbul,1404
+Madrid,Paris,654
+London,Manchester,163
+Frankfurt,Madrid,899
+Moscow,Amsterdam,1338
+London,Dublin,288
+Amsterdam,Moscow,1338
+Rome,London,892
+London,Madrid,784
+Istanbul,Paris,1404
+London,Istanbul,1556
+Madrid,Frankfurt,899
+Paris,Dublin,486
+Moscow,London,1558
+Istanbul,Frankfurt,1161
+Moscow,Paris,1549
+Zürich,Amsterdam,381
+Zürich,London,483
+Istanbul,Madrid,1705
+Vienna,Frankfurt,372
+Paris,Rome,687
+Rome,Paris,687
+Paris,Zürich,304
+Frankfurt,Istanbul,1161
+London,Düsseldorf,299
+Paris,Milan,398
+Frankfurt,Moscow,1259
+Amsterdam,Istanbul,1376
+Moscow,Frankfurt,1259
+London,Zürich,483
+Paris,Moscow,1549
+London,Moscow,1558
+Zürich,Frankfurt,189
+Amsterdam,Düsseldorf,113
+Dublin,London,288
+Rome,Amsterdam,806
+Amsterdam,Dublin,471
+Amsterdam,Copenhagen,387
+Frankfurt,Zürich,189
+Düsseldorf,Paris,256
+Istanbul,Amsterdam,1376
+Copenhagen,Frankfurt,418
+Dublin,Paris,486
+Madrid,Istanbul,1705
+Zürich,Paris,304
+Düsseldorf,Amsterdam,113
+Manchester,London,163
+Milan,Paris,398
+Rome,Frankfurt,596
+London,Vienna,769
+London,Rome,892
+Milan,Frankfurt,321
+Frankfurt,Milan,321
+Amsterdam,Rome,806
+Frankfurt,Vienna,372
+Palma de Mallorca,Madrid,342
+Dublin,Amsterdam,471
+Düsseldorf,London,299
+Frankfurt,Copenhagen,418
+London,Lisbon,985
+Frankfurt,Düsseldorf,113
+Amsterdam,Manchester,307
+Düsseldorf,Frankfurt,113
+Amsterdam,Zürich,381
+London,Palma de Mallorca,835
+Paris,Düsseldorf,256
+Frankfurt,Rome,596
+Manchester,Paris,376
+Lisbon,Madrid,313
+Paris,Manchester,376
+Manchester,Amsterdam,307
+London,Oslo,718
+London,Copenhagen,595
+Vienna,Amsterdam,583
+Oslo,London,718
+Copenhagen,Amsterdam,387
+Paris,Vienna,644
+Lisbon,London,985
+Madrid,Rome,849
+Moscow,Istanbul,1091
+Frankfurt,Lisbon,1176
+Rome,Madrid,849
+Vienna,London,769
+Rome,Istanbul,856
+Palma de Mallorca,London,835
+Paris,Lisbon,904
+Amsterdam,Lisbon,1159
+Madrid,Lisbon,313
+Oslo,Paris,834
+Palma de Mallorca,Paris,641
+Vienna,Rome,475
+Moscow,Madrid,2142
+Manchester,Frankfurt,522
+Vienna,Madrid,1126
+Oslo,Frankfurt,682
+Paris,Oslo,834
+Dublin,Madrid,901
+Madrid,Palma de Mallorca,342
+Palma de Mallorca,Frankfurt,785
+Amsterdam,Vienna,583
+Rome,Zürich,425
+Lisbon,Amsterdam,1159
+London,Milan,596
+Milan,Rome,296
+Milan,London,596
+Frankfurt,Dublin,677
+Lisbon,Paris,904
+Dublin,Frankfurt,677
+Copenhagen,London,595
+Istanbul,Rome,856
+Amsterdam,Milan,515
+Amsterdam,Oslo,567
+Madrid,Zürich,775
+Vienna,Paris,644
+Istanbul,Moscow,1091
+Paris,Palma de Mallorca,641
+Paris,Copenhagen,639
+Madrid,Manchester,904
+Madrid,Dublin,901
+Copenhagen,Paris,639
+Rome,Vienna,475
+Madrid,Oslo,1484
+Zürich,Madrid,775
+Frankfurt,Manchester,522
+Istanbul,Zürich,1101
+Rome,Moscow,1479
+Madrid,Milan,739
+Frankfurt,Palma de Mallorca,785
+Zürich,Rome,425
+Madrid,Moscow,2142
+Milan,Amsterdam,515
+Milan,Madrid,739
+Rome,Milan,296
+Moscow,Dublin,1742
+Istanbul,Copenhagen,1257
+Madrid,Düsseldorf,899
+Lisbon,Frankfurt,1176
+Madrid,Vienna,1126
+Amsterdam,Palma de Mallorca,890
+Moscow,Rome,1479
+Zürich,Istanbul,1101
+Copenhagen,Madrid,1289
+Düsseldorf,Madrid,899
+Palma de Mallorca,Amsterdam,890
+Frankfurt,Oslo,682
+Istanbul,Milan,1041
+Oslo,Amsterdam,567
+Istanbul,Vienna,793
+Oslo,Madrid,1484
+Dublin,Istanbul,1839
+Moscow,Oslo,1025
+Vienna,Moscow,1040
+Istanbul,Palma de Mallorca,1388
+Istanbul,Dublin,1839
+Manchester,Dublin,166
+Rome,Lisbon,1159
+Dublin,Rome,1173
+Manchester,Istanbul,1682
+Madrid,Copenhagen,1289
+Vienna,Istanbul,793
+Moscow,Zürich,1366
+Moscow,Manchester,1585
+Rome,Copenhagen,953
+Moscow,Vienna,1040
+Copenhagen,Oslo,300
+Lisbon,Rome,1159
+Rome,Dublin,1173
+Rome,Manchester,1050
+Manchester,Madrid,904
+Düsseldorf,Istanbul,1270
+Palma de Mallorca,Istanbul,1388
+Vienna,Milan,389
+Milan,Moscow,1423
+Dublin,Moscow,1742
+Zürich,Moscow,1366
+Milan,Istanbul,1041
+Oslo,Rome,1247
+Palma de Mallorca,Moscow,1945
+Moscow,Palma de Mallorca,1945
+Milan,Zürich,135
+Moscow,Copenhagen,972
+Zürich,Vienna,368
+Palma de Mallorca,Rome,540
+Istanbul,Manchester,1682
+Istanbul,Düsseldorf,1270
+Istanbul,Oslo,1522
+Copenhagen,Istanbul,1257
+Vienna,Zürich,368
+Oslo,Moscow,1025
+Copenhagen,Rome,953
+Rome,Düsseldorf,699
+Düsseldorf,Rome,699
+Dublin,Manchester,166
+Moscow,Milan,1423
+Oslo,Istanbul,1522
+Düsseldorf,Milan,413
+Copenhagen,Moscow,972
+Düsseldorf,Copenhagen,390
+Zürich,Milan,135
+Rome,Oslo,1247
+Manchester,Moscow,1585
+Düsseldorf,Zürich,277
+Düsseldorf,Manchester,412
+Vienna,Lisbon,1431
+Düsseldorf,Moscow,1298
+Oslo,Copenhagen,300
+Zürich,Dublin,771
+Zürich,Lisbon,1072
+Milan,Düsseldorf,413
+Dublin,Copenhagen,772
+Rome,Palma de Mallorca,540
+Milan,Vienna,389
+Copenhagen,Lisbon,1542
+Dublin,Milan,881
+Lisbon,Moscow,2432
+Zürich,Düsseldorf,277
+Istanbul,Lisbon,2016
+Copenhagen,Vienna,541
+Moscow,Düsseldorf,1298
+Dublin,Vienna,1048
+Vienna,Oslo,840
+Milan,Lisbon,1048
+Palma de Mallorca,Lisbon,635
+Oslo,Vienna,840
+Palma de Mallorca,Copenhagen,1203
+Lisbon,Copenhagen,1542
+Zürich,Manchester,635
+Manchester,Rome,1050
+Lisbon,Istanbul,2016
+Vienna,Düsseldorf,477
+Manchester,Vienna,889
+Palma de Mallorca,Zürich,614
+Copenhagen,Düsseldorf,390
+Düsseldorf,Vienna,477
+Palma de Mallorca,Milan,526
+Vienna,Dublin,1048
+Manchester,Zürich,635
+Palma de Mallorca,Manchester,988
+Moscow,Lisbon,2432
+Manchester,Düsseldorf,412
+Lisbon,Vienna,1431
+Vienna,Palma de Mallorca,905
+Palma de Mallorca,Dublin,1040
+Düsseldorf,Lisbon,1159
+Dublin,Düsseldorf,571
+Milan,Copenhagen,721
+Dublin,Zürich,771
+Lisbon,Milan,1048
+Dublin,Palma de Mallorca,1040
+Zürich,Palma de Mallorca,614
+Vienna,Copenhagen,541
+Oslo,Zürich,871
+Lisbon,Dublin,1020
+Manchester,Copenhagen,613
+Zürich,Oslo,871
+Manchester,Lisbon,1071
+Lisbon,Palma de Mallorca,635
+Copenhagen,Milan,721
+Oslo,Milan,1000
+Lisbon,Manchester,1071
+Milan,Dublin,881
+Copenhagen,Manchester,613
+Oslo,Palma de Mallorca,1449
+Dublin,Oslo,787
+Düsseldorf,Oslo,620
+Dublin,Lisbon,1020
+Lisbon,Zürich,1072
+Düsseldorf,Dublin,571
+Manchester,Oslo,663
+Copenhagen,Palma de Mallorca,1203
+Manchester,Palma de Mallorca,988
+Palma de Mallorca,Oslo,1449
+Copenhagen,Dublin,772
+Oslo,Lisbon,1703
+Vienna,Manchester,889
+Palma de Mallorca,Vienna,905
+Oslo,Dublin,787
+Lisbon,Oslo,1703
+Zürich,Copenhagen,600
+Copenhagen,Zürich,600
+Milan,Palma de Mallorca,526
+Palma de Mallorca,Düsseldorf,829
+Milan,Oslo,1000
+Manchester,Milan,754
+Milan,Manchester,754
+Oslo,Manchester,663
+Oslo,Düsseldorf,620
+Düsseldorf,Palma de Mallorca,829
+Lisbon,Düsseldorf,1159
