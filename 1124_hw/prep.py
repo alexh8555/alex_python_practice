@@ -67,14 +67,7 @@ def data_preprocessing(df):
 
     return receiver_df, doner_df
 
-if __name__ == '__main__':
-
-    # Load the CSV into a DataFrame
-    df = pd.read_csv(inputFileName)
-
-    # Prep
-    df_r, df_d = data_preprocessing(df)
-
+def data_combination(df_r, df_d):
     # Compare receiver and doner dataframes
     arcs_rows = []
 
@@ -105,4 +98,15 @@ if __name__ == '__main__':
     print("Arcs Dataframe:")
     print(arcs_df.head())
 
+    return arcs_df
 
+if __name__ == '__main__':
+
+    # Load the CSV into a DataFrame
+    df = pd.read_csv(inputFileName)
+
+    # Prep
+    df_r, df_d = data_preprocessing(df)
+
+    # Compare receiver and doner dataframes
+    arcs_df = data_combination(df_r, df_d)
