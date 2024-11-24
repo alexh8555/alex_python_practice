@@ -71,4 +71,9 @@ if __name__ == '__main__':
 
     # Load the CSV into a DataFrame
     df = pd.read_csv(inputFileName)
+
+    # Prep
     df_r, df_d = data_preprocessing(df)
+
+    # Compare receiver and doner dataframes
+
