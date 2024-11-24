@@ -76,4 +76,33 @@ if __name__ == '__main__':
     df_r, df_d = data_preprocessing(df)
 
     # Compare receiver and doner dataframes
+    arcs_rows = []
+
+    # Loop through each row in the DataFrame
+    for index_r, row_r in df_r.iterrows():
+        for index_d, row_d in df_d.iterrows():
+            if (-10 <= int(row_r['Rage']) - int(row_d['Dage']) <= 10): # Rule 1
+                if (-10 <= int(row_r['Rage']) - int(row_d['Dage']) <= 10): # Rule 2
+                    if (-10 <= int(row_r['Rage']) - int(row_d['Dage']) <= 10): # Rule 3
+                        arcs_rows.append({
+                            'ID_R': row_r['ID'],
+                            'ID_D': row_d['ID'],
+                            'RBT': row_r['RBT'],
+                            'DBT': row_d['DBT'],
+                            'Rage': row_r['Rage'],
+                            'Dage': row_d['Dage'],
+                            'Location_r': row_r['Location'],
+                            'Location_d': row_d['Location']
+                        })
+
+    # Convert the lists of rows to DataFrames
+    arcs_df = pd.DataFrame(arcs_rows)
+
+    # Optionally, save the separated dataframes to new CSV files
+    arcs_df.to_csv('./1124_hw/arcs.csv', index=False)
+
+    # Display the separated dataframes
+    print("Arcs Dataframe:")
+    print(arcs_df.head())
+
 
